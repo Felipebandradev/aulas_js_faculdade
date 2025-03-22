@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+}
+
+#teste {
+  display: flex;
+  flex-flow: row wrap;
+
+  & div {
+    min-width: 200px;
+    margin: 10px;
+    padding: 2rem;
+    border: solid 4px rebeccapurple;
+  }
+}
+
+#tabelaCampeonato {
+  /* border-style: dashed; */
+  /* border-style: solid; */
+  /* border-style: dotted; */
+  border-collapse: collapse;
+  width: 50%;
+
+  & tr > td > img {
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  & tr > td a {
+    color: #7980e2;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  & th,
+  td {
+    border-bottom: 4px solid #09cf09;
+    text-align: center;
+  }
+}
