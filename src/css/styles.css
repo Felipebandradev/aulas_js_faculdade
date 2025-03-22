@@ -41,3 +41,24 @@ html {
     text-align: center;
   }
 }
+
+#BtnArea {
+  & button {
+    padding: 1.5rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+  }
+
+  & .palmeiras {
+    background-color: rgb(5, 68, 5);
+    color: #09cf09;
+  }
+
+  & .flamengo {
+    background-color: brown;
+    color: azure;
+  }
+}

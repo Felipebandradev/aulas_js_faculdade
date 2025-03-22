@@ -3,14 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Exercício Css 04 Favicon -->
     <title>Exercício 05</title>
 
+    <!-- Exercício Css 03 Favicon -->
+    <link rel="shortcut icon" href="src/img/favicon.webp" type="image/x-icon" />
     <!-- Importação do Css -->
     <link rel="stylesheet" href="src/css/styles.css" />
   </head>
   <body>
     <main>
       <section>
+        <article id="BtnArea">
+          <button class="palmeiras" type="submit" onclick="mudarCorDaLinha()">
+            Mude a cor do Palmeiras
+          </button>
+
+          <button
+            class="flamengo"
+            type="submit"
+            onclick="mudarCorPorId('Flamengo')"
+          >
+            Mude a cor do Flamengo
+          </button>
+        </article>
+
         <!-- Exercício 05 -->
         <article>
           <table id="tabelaCampeonato">
