@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste</title>
+    <style>
+      html {
+        font-size: 18px;
+      }
+
+      #teste {
+        display: flex;
+        flex-flow: row wrap;
+
+        & div {
+          min-width: 200px;
+          margin: 10px;
+          padding: 2rem;
+          border: solid 4px rebeccapurple;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Exercío 01 -->
+    <header>
+      <h1>Exemplo 1</h1>
+      <h2>Exemplo 2</h2>
+      <h3>Exemplo 3</h3>
+      <h4>Exemplo 4</h4>
+      <h5>Exemplo 5</h5>
+      <h6>Exemplo 6</h6>
+    </header>
+    <main>
+      <section>
+        <p>Isso é um parágrafo</p>
+        <p>Isso é um parágrafo novo</p>
+        <hr />
+
+        <div>
+          <ol id="ListaOrdenada">
+            <li>Teste</li>
+          </ol>
+          <hr />
+          <ul id="ListaNaoOrdenada">
+            <li>Teste</li>
+          </ul>
+        </div>
+
+        <article id="teste">
+          <!-- Espaço reservado para cards de cursos -->
+        </article>
+
+        <!-- Exercício 02 -->
+
+        <article id="musicArea">
+          <p>
+            <b>Beethoven: <u>5 th Symphony</u></b> – Música de suspense e terror
+            clássica. Aparecia no Mais Você quando a Ana Maria Braga provava uma
+            comida . Apareceu também no filme:
+            <sub>“Se eu fosse você”</sub> Entre outras participações.
+          </p>
+
+          <p>
+            <b>Tchaikovsky: <u>1812 Overture</u></b> – Música de
+            <i>fanfarra</i>, sinceramente, acho que não é tão conhecida assim,
+            mas em todo caso está aqui marcando presença.
+          </p>
+        </article>
+
+        <!-- Exercício 03 -->
+        <article>
+          <ol id="ListaJogos">
+            <li>
+              <a
+                href="https://www.espn.com.br/futebol/time/_/id/2029/palmeiras"
+                target="_blank"
+                >Palmeiras</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.espn.com.br/futebol/time/_/id/874/corinthians"
+                target="_blank"
+                >Corinthians</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.espn.com.br/futebol/time/_/id/6086/botafogo"
+                target="_blank"
+                >Bota Fogo</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.espn.com.br/futebol/time/_/id/819/flamengo"
+                target="_blank"
+                >Flamengo</a
+              >
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <script src="src/teste.js"></script>
+  </body>
+</html>
